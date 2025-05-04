@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinderBoxer | Find Boxing Sparring Partners</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.1/dist/gsap.min.js"></script> <!-- For animations -->
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">TinderBoxer</div>
+        <nav>
+            <ul>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#swipe">Find Sparring Partners</a></li>
+                <li><a href="#chat">Chat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section id="swipe">
+            <h2>Swipe to Find Your Sparring Partner</h2>
+            <div class="card-container">
+                <div class="card" id="card1">
+                    <img src="profile1.jpg" alt="Boxer 1">
+                    <div class="info">
+                        <h3>John Doe</h3>
+                        <p>Weight: 75kg | Experience: 5 years</p>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <img src="profile2.jpg" alt="Boxer 2">
+                    <div class="info">
+                        <h3>Jane Smith</h3>
+                        <p>Weight: 68kg | Experience: 3 years</p>
+                    </div>
+                </div>
+                <div class="card" id="card3">
+                    <img src="profile3.jpg" alt="Boxer 3">
+                    <div class="info">
+                        <h3>Mike Johnson</h3>
+                        <p>Weight: 80kg | Experience: 2 years</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="dislike" class="control-btn">Dislike</button>
+                <button id="like" class="control-btn">Like</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TinderBoxer. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
